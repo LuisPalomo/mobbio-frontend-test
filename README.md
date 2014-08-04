@@ -19,6 +19,8 @@ Deberá haber test unitarios para todas las funcionalidades y módulos. Los esti
 
 La prueba puntuará según si los módulos están correctamente formados, se cumple con las funcionalidades descritas, el sass y css está bien formado, los test se ejecutan correctamente.
 
+Una vez se haya completado todos los objetivos anteriormente descritos, para obtener un extra en la puntuación de la prueba se propone que al pulsar sobre el botón de reiniciar la aplicación se muestre de nuevo el carrito y se rehaga la lista de artículos del carrito recuperando los datos del servidor por ajax y renderizando cada elemento a través de un sistema de templating de cliente (se recomienda utilizar handlebars). La petición para recuperar los elementos del carrito es un GET a "/items". Se pasa la url como parámetro de configuración del módulo del carrito.
+
 
 ![Captura de pantalla 2014-08-04 a la(s) 17.26.02.png](https://bitbucket.org/repo/7ndb5z/images/2053606156-Captura%20de%20pantalla%202014-08-04%20a%20la%28s%29%2017.26.02.png)
 

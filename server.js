@@ -20,6 +20,7 @@ app.use(app.router);
 var routes = require('./routes');
 
 app.get('/', routes.index);
+app.get('/items', routes.items);
 
 var port = app.get('port');
 this.server = http.createServer(app).listen(port, function() {
